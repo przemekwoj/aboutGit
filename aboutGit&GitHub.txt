@@ -72,8 +72,38 @@ git push -u origin master
 
 %%%%%
 git --version
+
 git config --global user.name "przemekwoj"
 git config --global user.email przemoemo@poczta.onet.pl
 git config --list
+
+git init
+
+to stop tracking our repo we have to remove our .git folder using command : rm -rf .git
+
+git status
+
+git add -A  dodaje wszytko
+git add "nazwa pliku"
+
+to remove use :
+git reset "nazwa pliku"
+git reset    to remove all 
+
+git commit -m "first commit"
+
+git log   to see commit that we have just made
+
+git remote add origin https://github.com/przemekwoj/aboutGit.git
+
+git push origin master
+
+git branch "name of branch"     is creating a branch
+
+git branch    shows all branches
+
+git checkout "name of branch"  choose the branch that we want to work with
+
+git branch --merge
 
 
