@@ -1,0 +1,79 @@
+1)tworzy na githubie repo , potem sciagamy na kompa ,wprowadzamy zmiany a potem pushujemy spowrtoem do githuba
+2)projkt mam na lampku i chce go wrzucic na github
+
+git --version  version of git
+
+Git 
+-version controllor software
+
+Github
+-web service (we can do Git things on the web server)
+
+
+Reposytory (Repo) its a something like project
+
+commit - its something like "save"
+	- each commit has unique indectification  
+
+Branch
+	-main list of commit ( deaulf brach) is a MasterBranch
+
+merge - join non-master branch to masterbranch
+
+Fork - taking entire repository to different account , that other guy can work on this
+
+Pull Request - sending our changes back to main repository, its request coz "admin" has to accept our changes
+
+#command
+cd - change directory
+pwd - print working directory, path where i am?
+ls - list of directory
+
+push - sening to github
+
+pull - taking from github
+
+
+
+clone - taking repository from github to your computer
+
+steps to clone(download) repositiry:
+1. get in gitBasg(cmd) to place where you want to downloan(clone) repository
+2. enter the command : " git clone link to reposotory "expample $ git clone https://github.com/przemekwoj/aboutGit.git
+
+git status
+- you have to go to inside your repo and there open gitbash(cmd) , then enter " git status" to see status about your project
+
+
+
+git config --global user.name "przemekwoj"
+git config --global user.email przemoemo@poczta.onet.pl
+git config --list    to check if confing is okej
+
+git commit -a -m "any message"
+ commit -a - commint everything -m with message	
+
+git log    -shows what we where doing before
+
+git push origin master
+
+2)projkt mam na lampku i chce go wrzucic na github
+
+steps:
+1) tworzymy puste repo na kompie
+git init
+git add "plik"   //git add .   is adding anything
+git commit -m "message"
+git remote add origin https://github.com/przemekwoj/aboutGit.git
+git push -u origin master
+
+
+
+
+%%%%%
+git --version
+git config --global user.name "przemekwoj"
+git config --global user.email przemoemo@poczta.onet.pl
+git config --list
+
+
